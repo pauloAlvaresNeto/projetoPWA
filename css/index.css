@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar-brand>img {
+    max-height: 5rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+.mouse:hover {
+    cursor: pointer;
+}
+
+.bg-light {
+    background:whitesmoke;
+    
+    color: black;
+}
+#my-nav {
+  height: 100vh;
+}
+.bg-dark {
+   background: black;
+   
+   color: white;
+}
+
+.icon-social>a>i {
+    font-size: 2rem;
+}
+
+body {
+    padding-top: 3rem;
+    
+    
+  }
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .news .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .news h2 {
+    font-weight: 400;
+  }
+  .news.col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  .divider {
+    margin: 5rem 0; 
+  }
+  
+  .heading-news{
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .anime {
+      opacity: 0;
+      transform: translate3d(-100px,0,0);
+      transition: .3s;
+  }
+  .anime-start {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+
+  .footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .footer p:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 40em) {
+    
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .heading-news {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .heading-news {
+      margin-top: 7rem;
+    }
+  }
