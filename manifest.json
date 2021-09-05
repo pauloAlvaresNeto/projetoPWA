@@ -1,6 +1,6 @@
 {
-  "name": "PWA",
-  "short_name": "PWA",
+  "name": "HairDresser",
+  "short_name": "HairDresser",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
